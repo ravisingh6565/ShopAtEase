@@ -1,0 +1,30 @@
+.increament-btn{
+    border: 0px;
+}
+.decreament-btn{
+    border: 0px;
+}
+#carousel{
+    height: 500px;
+}
+.signup-form{
+    width: 500px;
+    margin: auto;
+}
+.nav-links{
+    align-self: center;
+}
+:root{
+    --col1: #7eD957;
+    --col2: #048aa9;
+    --col3: #cecece;
+    --col4: #f27e79;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    /* background-image: linear-gradient(to right, var(--col1),rgb(230, 255, 140),var(--col2),rgb(31, 232, 232),rgb(245, 105, 105),var(--col4)); */
+  }

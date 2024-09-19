@@ -1,0 +1,215 @@
+
+nav{
+    display:flex;
+    /* position: sticky;
+    z-index: 100; */
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    /* background-image: linear-gradient(to right, var(--col1),rgb(230, 255, 140),var(--col2),rgb(31, 232, 232),rgb(245, 105, 105),var(--col4)); */
+}
+.navbar
+{
+    position: sticky;
+    z-index: 100;
+}
+
+/* Main logo */
+nav .logo{
+    width: 70px;
+    border:0.1px solid var(--col2);
+    box-shadow: 0 0 30px var(--col1);
+    overflow: hidden;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+nav .logo:hover{
+    border: 2px solid var(--col2);
+    box-shadow: 0 0 70px var(--col1);
+}
+
+/* Searchbar and its icon */
+nav .searchbar{
+    display: flex;
+    border: none;
+    box-shadow: 0 0 4px var(--col1);
+    overflow: hidden;
+    padding: 5px;
+    justify-content: space-between;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+nav .searchbar input{
+    border: none;
+    outline: none;
+    width: 100%;
+    /* background-color: aliceblue; */
+    
+}
+nav .search:hover{
+    border: 2px solid var(--col4);
+    border-radius: 5px;
+    width: 100%;
+}
+nav svg{
+    color: var(--col2);
+    width: 25px; 
+    height: 25px;
+    cursor: pointer;
+}
+nav svg:hover{
+    color: var(--col1);
+}
+nav .searchbar svg{
+    color: var(--col2);
+}
+nav .searchbar .btn svg{
+    color: var(--col1);
+}
+nav .searchbar .btn button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+nav .searchbar .btn svg:hover{
+    background-color: var(--col4);
+    color: white;
+    -o-border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    border-radius: 45%;
+    padding: 1px;
+}
+/* Searchbar end */
+
+/* log, bar, login,... */
+nav .s1{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .s1 .right{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.right .btn span:hover{
+    padding: 4px;
+    background-color: var(--col1);
+    -o-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+}
+/* Name, home,... */
+nav .s2{
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    padding-top: 5px;
+    /* padding-bottom: 0px; */
+    width: 100%;   
+}
+/* .s2 .brand{
+    display: flex;
+    color: var(--col4);
+} */
+@font-face{
+    font-family: 'Sacramento';
+    src: url(../../src/Sacramento-Regular.ttf);
+}
+.s2 .Sacramento{
+    font-family: 'Sacramento',cursive;
+    font-weight: 500;
+    width: 14%;
+    font-size: 45px;
+    color: black;
+    text-shadow: 1px 1px 1px var(--col1);
+    /* -moz-text-decoration-color:#1b00cce1;
+    text-decoration-color:#0003cce1; */
+    /* background-image: linear-gradient(to left,white,black,grey,white); */
+
+    /*text-decoration-style: solid;
+    -moz-text-decoration-style: solid ;
+    */  
+}
+
+.nav-options{
+    display: inline-flex;
+    flex-direction: row;
+    /* gap: 2%; */
+    align-items: center;
+    justify-content:flex-start;
+    /*background-color: white;
+    *//*border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    */
+    /* height: 50%; */
+    margin:1px 0px;
+    border: none;
+    /* box-shadow: 0 0 4px black; */
+    overflow: hidden;
+    padding: 5px;
+    /*justify-content: space-between;
+    /* */border-radius: 15%;
+    /* -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px; */ 
+    width: 50%;
+}
+.extra{
+    display: inline-flex;
+    color: transparent;
+}
+/* .nav-options button{
+    color: aliceblue;
+    padding: 2px 1px;
+    margin: 2px 0px;
+} */
+.navbar-nav{
+    display: inline-flex;
+    flex-direction: row;
+    /* background-color: aliceblue; */
+    /* border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; */
+    padding: 0px 5px;
+    margin: 1px 5px;
+    /* gap: 4%; */
+}
+nav .s2 span{
+    display: inline-flex;
+    flex-direction: row;
+    color: rgb(28, 27, 27);
+    margin: 5px 10px;
+    font-size: 22px;
+}
+nav .s2 span:hover{
+    background-color: var(--col1);
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+}

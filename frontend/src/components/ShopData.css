@@ -1,0 +1,55 @@
+.mainsec{
+    display: flex;
+    flex-direction: row; 
+    /* justify-content: right; */
+    /* justify-content: space-between;  */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.shop-page{
+    display: flex;
+    /*flex-direction: column;
+    */width: 100%;
+    justify-content: right;
+    /*justify-items: right;
+    *//*align-items: flex-end;
+    *//*align-content: center;
+    */background-image: url(../../src/bg6_2.png);
+    object-fit:cover;
+    background-size: cover;
+    background-repeat: round;
+    filter: brightness(1.2) ;
+    -webkit-filter: brightness(1.2) ;
+}  
+
+.desc h3{
+    margin-top: 2%;
+    /* color: var(--col1); */
+    color: #033d16;
+    font-size: 5rem;
+    background-color: transparent;
+    text-shadow: 6px 3px 1px var(--col1);
+    /* text-shadow: 4px 2px 2px #004735; */
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: flex-end;
+    background-color: transparent;
+    padding-right: 5%;
+}
+.desc h5{
+    background-color: transparent;
+}
+.desc h5 p{
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 1.35rem;
+    
+    
+}
+.desc p{
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1.20rem;
+}

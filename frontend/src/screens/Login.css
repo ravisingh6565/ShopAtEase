@@ -1,0 +1,88 @@
+/* div{
+    background-image: linear-gradient(to left, white,grey,silver,grey,white);
+    width: 100%;
+    display: flexbox;
+} */
+
+
+.signup-form{
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(232, 233, 217); */
+    color: black;
+    border: 5px double black;
+    -o-border-radius: 20px;
+    border-color: var(--col2);
+    padding: 10px 10px;
+    /* margin: 50px auto; */
+    display: flexbox;
+    box-shadow: var(--col2) 1px 1px 5px;
+    /* background-image: linear-gradient(to left, white,grey,silver,grey,white); */
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    
+}
+.head{
+    /* background-image: linear-gradient(to right, var(--col1),rgb(230, 255, 140),var(--col2),rgb(31, 232, 232),rgb(245, 105, 105),var(--col4)); */
+    justify-content: center;
+    background-color: transparent;
+    /* background-color: var(--col1); */
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: inline-flex;
+    color: rgb(255, 0, 0);
+    width: 100%;
+    margin: 35px auto;
+    padding: 35px auto;
+    font-size: 80px;
+    font-weight: 100;
+    text-shadow: 5px 5px rgb(14, 26, 192);
+    /* text-shadow: 0 0 30px var(--col4); */
+    /* text-decoration: double;
+    text-decoration-line: underline;
+    -moz-text-decoration-line: underline; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mb-3 input{
+    background-color: rgb(228, 251, 239);
+    box-shadow: rgb(46, 47, 46) 1px 1px;
+}
+.Mar h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: var(--col2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 300;   
+    /* opacity: 100%; */
+}
+/* .Mar{
+    opacity: 0%;
+
+} */
+
+.lg{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    /* background-image: url(../../src/bg.jpg);
+    background-size: contain;
+    width: 2000px;
+    height: 900px;
+    margin:10px;
+    padding: 0%; */
+    /* gap:10%; */
+}
+.logo-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}

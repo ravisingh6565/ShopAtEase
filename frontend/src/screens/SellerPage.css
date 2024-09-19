@@ -1,0 +1,39 @@
+.container-seller {
+    display: grid;
+    min-width: 100%;
+    background-image: url(../../src/Design.png);  
+    object-fit: cover;
+    background-repeat: round;
+    min-height: 100%;
+    background-size: cover;
+    
+} 
+.c1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+    justify-content: right;
+}
+.c2{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: transparent;
+    margin-bottom: 40%;
+}
+.c2 .btn{
+    margin-top: 4%;
+    font-size: 5ch;
+    font-weight: 550;
+    height:100px;
+}
+.c2 .btn:hover{
+    color: var(--col2);
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}

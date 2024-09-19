@@ -1,0 +1,48 @@
+.Marq img{
+    size:100rem;
+    width: 300px;
+    margin: 20px 10px;
+    padding: 1px 1px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    justify-items:center;
+    box-shadow: 0 2px 5px var(--col1);
+    object-fit: cover;
+}
+.img-container {
+    width: 70%;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /*width: 24%;
+    */min-width: 300px;
+    height: 170px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    /* border: 5px solid grey; */
+}
+.Title h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: var(--col1);
+    text-shadow: 0 0 5px rgb(134, 234, 135);
+    font-stretch: expanded ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 300;
+
+}

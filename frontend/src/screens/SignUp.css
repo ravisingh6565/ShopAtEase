@@ -1,0 +1,9 @@
+.already-user{
+    margin-left: 100px;
+    background-color:  rgb(203, 32, 45);
+    margin-left: 10px;
+}
+.SignUp-btns{
+    display: flex;
+    justify-content:center;
+}

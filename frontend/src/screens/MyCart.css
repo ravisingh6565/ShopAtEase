@@ -1,0 +1,85 @@
+.my-cart{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5%;
+    background-image: linear-gradient(var(--col1),rgb(153, 245, 153),rgb(186, 248, 186),rgb(186, 248, 186),rgb(153, 245, 153),var(--col1));
+}
+.my-cart .hd{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4% 0%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 3px solid darkgreen;
+    margin-bottom: 1%;
+
+}
+.my-cart span svg{
+    display: inline-flex;
+    color: rgb(12, 150, 12);
+    width: 12%;
+    box-shadow:4px 0px 1px rgb(244, 248, 244);
+    
+}
+.hd h2{
+    font-weight: 500;
+    font-size: 3.8rem;
+    color: var(--col1);
+    text-shadow: 3px 3px 2px rgb(9, 83, 13);
+    /* margin-left: 25%; */
+}
+.table-data{
+    padding: 1% 1%;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.table-data .table thead th{
+    background-color: rgb(14, 180, 100);
+    padding: 0.5%;
+    border-bottom: transparent;
+    font-size: 1.6rem;
+    color:white
+}
+.table-data .table tbody tr{
+    padding-top: 10%;
+    border-bottom: transparent;
+    font-size: 1.5rem;
+}
+.table-data .table tbody tr:hover{
+    cursor: pointer;
+    background-color: rgb(153, 238, 153);
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1%;
+    border-top: 1px solid black;
+}
+.btnn .btn{
+    font-size: 1.6rem;
+}
+.my-cart h1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 3.5rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 3px solid darkgreen;
+    padding: 1%;
+
+}

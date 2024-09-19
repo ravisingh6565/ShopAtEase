@@ -1,0 +1,22 @@
+.already-user{
+    margin-left: 100px;
+    background-color:  rgb(203, 32, 45);
+    margin-left: 10px;
+}
+.SignUp-btns{
+    display: flex;
+    justify-content:center;
+}
+.Mar h3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: var(--col4);
+    text-shadow: 0 0 30px var(--col2);
+    font-stretch: expanded ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-top: 20%;
+    margin-bottom: 20px;
+    font-weight: 300;
+}

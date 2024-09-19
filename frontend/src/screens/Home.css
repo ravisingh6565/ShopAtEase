@@ -1,0 +1,27 @@
+*{
+    background:#f3f7f3;
+}
+.shophead{
+    width: 100%;
+    margin: 10px auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient(to left, #222222,grey,silver,grey,#222222); */
+}
+.shophead h2{
+    color: rgb(199, 18, 18);
+    font-size: 50px;
+    font-weight: 300;
+}
+.shophead b{
+    color: var(--col1);
+    font-weight: 400;
+}
+.shophead b:hover{    
+    text-decoration: underline;
+    text-decoration-color: var(--col1);
+    -moz-text-decoration-color: var(--col1);
+    cursor: pointer;
+}
+    
